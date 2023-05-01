@@ -1,0 +1,8 @@
+@Test(dataProvider="LoginData") we can write it if the data provider is the same class as test 
+(targetpage==true) login successfull
+Assert.assertTrue(true); not comparing anything 
+if(targetpage==true)
+			{
+				macc.clickLogout();
+				Assert.assertTrue(true);
+			} we need to logout after loging so that we can continue with another data

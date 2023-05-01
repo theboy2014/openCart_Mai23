@@ -1,0 +1,2 @@
+public static WebDriver driver; because if we dont make it static 2 drivers will be created , one for base clas one for base class 
+object
